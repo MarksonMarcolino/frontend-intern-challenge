@@ -75,7 +75,7 @@ a{
 }
 
 .arrowdown{
-	background: url('https://googledrive.com/host/0B12UShIMy-vtV2dWcnpCa3Y2d2M/arrowdown.png');
+	background: url('../../Assets/arrowdown.png');
 	background-size:100px 50px;
 	background-repeat: no-repeat;
 	height:50px;
@@ -107,7 +107,7 @@ a{
 /*~~ Content ~~*/
 
 #primary-section{
-	background:url('https://googledrive.com/host/0B12UShIMy-vtV2dWcnpCa3Y2d2M/background.jpg');
+	background:url('../../Assets/background-home.jpg');
 	background-size:100% 480px;
 	height:480px;
 	color:#fff;
