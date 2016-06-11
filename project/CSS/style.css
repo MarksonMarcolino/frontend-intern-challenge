@@ -1,0 +1,187 @@
+@import url(https://www.google.com/fonts#ChoosePlace:select/Collection:Roboto|Roboto+Slab);
+
+/*
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+Laranja 	= 	ff6e14
+Vermelho 	=	aa1423
+Cinza Texto	=	777777
+Cinza Fundo	=	eeeeee 
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.clear{
+	clear:both;
+}
+
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+.input-text{
+	width:80%;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom: 2px solid #ff6e14;
+	outline:none;
+	background:transparent;
+	padding:10px 0px 10px 0px;
+	font-size:20px;
+	font-family: Roboto Slab, serif;
+}
+
+.input-text:focus{
+	color:#ff6e14;
+}
+
+.input-text::-webkit-input-placeholder{
+	color:#ff6e14;
+}
+
+.input-submit{
+	padding:10px 20px;
+	background:#ff6e14;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	transition:0.3s;
+}
+
+.input-submit:hover{
+	background:transparent;
+	border:1px solid #ff6e14;
+	transition:0.3s;
+}
+
+a{
+	color:#aa1423;
+}
+
+.grey{
+	background:#eee;
+}
+
+.arrowdown{
+	background: url('https://googledrive.com/host/0B12UShIMy-vtV2dWcnpCa3Y2d2M/arrowdown.png');
+	background-size:100px 50px;
+	background-repeat: no-repeat;
+	height:50px;
+	width:100px;
+	margin:-50px auto 50px auto;
+}
+
+/*~~ Header ~~*/
+
+.content{
+	max-width:1000px;
+	margin:0px auto;
+	text-align:center;
+}
+
+.header-content{
+	width:100%;
+	padding:10px 0px;
+}
+
+.header-content .logo{
+	text-align: center;
+}
+
+.header-content .logo img{
+
+}
+
+/*~~ Content ~~*/
+
+#primary-section{
+	background:url('https://googledrive.com/host/0B12UShIMy-vtV2dWcnpCa3Y2d2M/background.jpg');
+	background-size:100% 480px;
+	height:480px;
+	color:#fff;
+}
+
+#primary-section h1{
+	font-family:Roboto,sans-serif;
+	font-size:40px;
+	margin-top:100px;
+}
+
+#primary-section p{
+	font-family:Roboto Slab,serif;
+	font-size:20px;
+	color:#fff;
+}
+
+#primary-section .form-content{
+	font-family:Roboto,sans-serif;
+	width:55%;
+	margin:50px auto 0px auto;
+}
+
+section{
+	padding:50px 0px;
+	color:#aa1423;
+	font-family: Roboto Slab,serif;
+	font-size:30px;
+}
+
+section .content ul{
+	margin:50px auto 0px auto;
+	width:50%;
+}
+
+section .content ul li{
+	width:100%;
+	font-size:24px;
+	text-align: left;
+	border-bottom:1px solid #eee;
+	border:1px solid #000;
+}
+
+section .content ul li:last-child{
+	border:none;
+}
+
+section .content ul li span{
+	float:right;
+	color:#777;
+}
+
+section .content h3{
+	padding:10px;
+	border-radius:5px;
+	background:#fff;
+	width:160px;
+	margin:30px auto 0px auto;
+}
+
+section .content p{
+	color:#777;
+	font-size:20px;
+	margin-top:10px;
+}
+
+/*~~ Footer ~~*/
+
+.footer-content{
+	padding:10px 0px;
+	color:#aa1423;
+	font-size:18px;
+}
+
+.social img{
+	margin-left:25px;
+}
