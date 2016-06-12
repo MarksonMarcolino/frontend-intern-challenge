@@ -10,7 +10,6 @@ Vermelho 	=	aa1423
 Cinza Texto	=	777777
 Cinza Fundo	=	eeeeee 
 */
-
 *{
 	margin: 0px;
 	padding: 0px;
@@ -148,7 +147,6 @@ section .content ul li{
 	font-size:24px;
 	text-align: left;
 	border-bottom:1px solid #eee;
-	border:1px solid #000;
 }
 
 section .content ul li:last-child{
