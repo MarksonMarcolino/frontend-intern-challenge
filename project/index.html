@@ -5,6 +5,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href='CSS/style.css'/>
+
         
     </head>
 
@@ -44,8 +45,8 @@
                 <div class="form-content">
                     <!-- Start of form-content -->
 
-                    <input type="text" class="input-text" placeholder="Cole o seu link aqui" />
-                    <input type="submit" class="input-submit" value="Encurtar" />
+                    <input type="text" id="address" class="input-text" placeholder="Cole o seu link aqui" />
+                    <input type="submit" id="button" class="input-submit" value="Encurtar" />
 
                 </div>
                 <!-- End of form-content -->
@@ -62,17 +63,9 @@
 
                 	<h2>TOP 5</h2>
 
-                <ul>
-                    <li><a href="#">www.somelink.com.br</a><span>0</span>
-                    </li>
-                    <li><a href="#">www.somelink.com.br</a><span>0</span>
-                    </li>
-                    <li><a href="#">www.somelink.com.br</a><span>0</span>
-                    </li>
-                    <li><a href="#">www.somelink.com.br</a><span>0</span>
-                    </li>
-                    <li><a href="#">www.somelink.com.br</a><span>0</span>
-                    </li>
+                <ul id="list">
+                    <l1><span></span></l1>
+
                 </ul>
 
             </div>
@@ -88,7 +81,7 @@
                 <!-- Start of content -->
 
                 	<h2>HITS</h2>
-                	<h3>0</h3>
+                	<h3 id="counter">0</h3>
                 <p>Cliques em links</p>
 
             </div>
@@ -101,13 +94,13 @@
             <div class="footer-content content">
                 <!-- Start of footer-content -->
 
-                <p class="left">chr.dc</p>
+                <a href="http://chaordic.com.br"><p class="left">chr.dc</p></a>
 
                 <div class="social right">
                     <!-- Start of social -->
 
-                    <img src="../Assets/icon-twitter.png" />
-                    <img src="../Assets/icon-facebook.png" />
+                    <a href="https://twitter.com/chaordic"><img src="../Assets/icon-twitter.png" /></a>
+                    <a href="https://www.facebook.com/chaordic.com.br/?fref=ts"><img src="../Assets/icon-facebook.png" /></a>
 
                 </div>
                 <!-- End of social -->
@@ -115,17 +108,9 @@
             </div>
             <!-- End of footer-content -->
 
-            <script src="https://googledrive.com/host/0B12UShIMy-vtV2dWcnpCa3Y2d2M/jquery.js"></script>
-            <script src="https://googledrive.com/host/0B12UShIMy-vtV2dWcnpCa3Y2d2M/script.js"></script>
-            
-            <script>
-                
-                $(document).ready(function(){
-                    alert();
-                })
-                
-            </script>
-            
+
+            <script src="script/jquery.js"></script>
+            <script src="script/script.js"></script>
         </footer>
 
     </body>
